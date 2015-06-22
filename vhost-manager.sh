@@ -45,7 +45,7 @@ sites_enabled="/etc/httpd/conf/sites-enabled/"
 sites_available="/etc/httpd/conf/sites-available/"
 apache_www="/var/www-vhosts/"
 
-while getopts "a:e:w:n:d:vh" opt; do
+while getopts "a:e:w:n:r:u:dvh" opt; do
 	case "$opt" in
 		v)	verbose=$((verbose+1))
 			vFlag=true
