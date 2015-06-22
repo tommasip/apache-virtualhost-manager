@@ -13,7 +13,7 @@ Usage: ${0##*/} -a ACTION -w DOMAIN_NAME [-e EMAIL] [-n VHOST_NAME] [-r DIR_NAME
 	-e		webmaster email
 	-n		name of the virtual host (if not specified it uses
 			DOMAIN_NAME)
-	-r		name of the virtual host directory under /var/www-vhosts/
+	-r		name of the virtual host directory under ${apache_www}
 			(if not specified it uses VHOST_NAME)
 	-d		delete the virtual host directory
 	-u		set owner of the virtual host directory
